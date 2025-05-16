@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .top {
+    background-color: #333;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+ }
+ .top .left {
+    display: flex;
+    width: 500px;
+ }
+ .top .logo {
+    margin: 10px 20px;
+ }
+ .top .logo img {
+    height: 30px;
+ }
+ .top .course {
+    width: 90px;
+    background: #000;
+    padding: 20px;
+ }
+ .top .course a {
+    color: #888;
+    text-decoration: none;
+    text-transform: uppercase;
+ }
+ .top .right ul {
+    list-style: none;
+    display: flex;
+ }
+ .top .right ul li {
+    border-left: 1px solid #888;
+    padding: 21px;
+ }
+ .top .right ul li i {
+    color: #888;
+ }
+ .top .right ul li:hover {
+    background-color: #000;
+ 
+ }
+ .top .right ul li:hover i {
+    color: #FFF;
+ }
+ .top .right ul .shop {
+    background-color: #5ac75a;
+    border: none;
+ }
+ .top .right ul .shop i {
+    color: #fff;
+ }
+ .background {
+    background: url(../image/slider_background.jpg.webp);
+    width: 100%;
+    height: 90vh;
+    padding: 50px 0px;
+ }
+ .container {
+    margin: 0px 50px;
+ }
+ .background .navbar {
+    width: 90%;
+    background-color: #FFF;
+    align-items: center;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -270px;
+    position: fixed;
+ }
+ .background .navbar .logo {
+    display: flex;
+    margin-left: 70px;
+    align-items: center;
+ }
+ .background .navbar .logo h1 {
+    color: #3a3a3a;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-left: 5px;
+ }
+ .background .navbar .nav .cancel {
+    display: none;
+    float: right;
+ }
+ .background .navbar .nav .cancel i {
+    font-size: 50px;
+ }
+ .background .navbar .nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0px 10px;
+ }
+ .background .navbar .nav ul li {
+    padding: 0px 10px;
+ }
+ .background .navbar .nav ul li a{
+    color: #3a3a3a;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+ }
+ .background .navbar .toggle i {
+    color: #000;
+    font-size: 25px;
+    display: none;
+ }
+ .background .navbar .toggle i:hover {
+    color: #FFB606;
+ }
+ .background .navbar .tel {
+    background-color: #FFB606;
+    display: flex;
+    text-align: center;
+    height: 100px;
+    padding: 0px 30px;
+    align-items: center;
+    color: #FFFF;
+ }
+ .background .navbar .tel i {
+    margin-right: 10px;
+ }
+ .background .background-text  {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 300px;
+    text-align: center;
+ }
+ .background .background-text button {
+    width: 60px;
+    height: 60px;
+    text-transform: uppercase;
+    font-weight: 50px;
+ }
+ .background .background-text .text {
+    color: #FFF;
+    font-size: 30px;
+ }
+ .background .background-text .text span {
+    padding: 10px 20px;
+    background-color: #FFB606;
+ }
+ .background .background-card {
+    margin-top: 50px;
+ }
+ .background .background-card .card {
+    width: 350px;
+    height: 150px;
+    background-color: #1A1A1A;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+ }
+ .background .background-card .card .img {
+    width: 60px;
+    margin-right: 10px;
+ } 
+ .background .background-card .card .img img {
+    width: inherit;
+ }
+ .background .background-card .card .text h2 {
+    color: #FFF;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+ }
+ .background .background-card .card .text a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+ }
+ .background .background-card .card:hover {
+    background-color: #FFB606;
+ 
+ }
+ .background .background-card .card:hover img {
+    background-color: #000;
+ }
+ .background .background-card .card a:hover {
+    color: #000;
+ }
+ .background .background-card .responsive {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(22rem, 3fr));
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* for password.html */
+.con {
+   align-items: center;
+}
+#icon {
+   /* display: none; */
+   position: absolute;
+   margin-left: -25px;
+   margin-top: 5px;
+}
+form input {
+   padding: 5px 15px;
+}
+
+
+
+
+
+ @media screen and (max-width: 500px) {
+    
+    .background .navbar .nav {
+        display: none;
+        position: absolute;
+        background-color: #FFF;
+        width: 100%;
+        height: 90vh;
+        top: -20px;
+        margin-left: -10px;
+    }
+    .background  .navbar .tel {
+        display: none;
+    }
+    .background .navbar .toggle i {
+        display: block;
+    }
+    .background .navbar .nav.appear {
+        display: block;
+    }
+    .background .navbar .nav ul {
+        display: inline;
+    }
+    .background .navbar .nav .cancel {
+        display: block;
+    }
+    /* .background .navbar .nav.show{
+        display: none;
+    } */
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
